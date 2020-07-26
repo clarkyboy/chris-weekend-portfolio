@@ -282,3 +282,65 @@ body{
     padding: 15px 20px;
     text-decoration: none;
 }
+/*Reservation Form*/
+.reservation {
+    overflow: auto;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.res-form {
+    overflow: auto;
+}
+
+.res-form-left,
+.res-form-right {
+    width: 49.5%;
+    float: left;
+    background-color: #f2f2f2;
+    padding: 2%;
+    border-radius: 5px;
+}
+
+.res-form-left{
+    margin-right: 1%;
+}
+
+.res-form label,
+.res-form input,
+.res-form textarea,
+.res-form select {
+    display: block;
+    width: 100%;
+    font-family: 'Open sans', sans-serif;
+}
+
+.res-form input,
+.res-form textarea,
+.res-from select {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.res-form label {
+    font-weight: 700;
+}
+
+.subtitle {
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+input.form-inline,
+label.form-inline {
+    display: inline;
+    width: auto;
+}
+
+.btn{
+    background-color: #4caf50;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+}
