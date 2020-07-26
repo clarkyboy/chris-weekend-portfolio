@@ -239,3 +239,46 @@ body{
 .merch-item p {
     color: #c7a17a;
 }
+/*Ads Big Area*/
+
+.ads-big {
+    width: 85%;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('../images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-bottom: 5%;
+}
+.ads-big-text {
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.ads-big-text span {
+    color: #c7a17a;
+    font-style: italic;
+    font-size: 25px;
+}
+
+.ads-big-text h2 {
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.ads-big-text a {
+    color: #312A26;
+    background-color: white;
+    font-weight: 800;
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+}
